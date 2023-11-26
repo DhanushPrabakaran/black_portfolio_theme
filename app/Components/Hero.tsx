@@ -18,7 +18,7 @@ const Hero = () => {
         <div className=" flex  items-center justify-center  flex-col ">
           <div
 
-            className="text-5xl max-md:text-4xl max-md:items-center font-bold bg-gradient-to-r from-gray-200 via-gray-400 to-gray-600 bg-clip-text text-transparent my-2"
+            className="text-5xl max-md:text-4xl max-md:items-center font-bold bg-gradient-to-t from-gray-400 via-gray-600 to-gray-600 bg-clip-text text-transparent my-2"
           >
             Dhanush Prabakaran
           </div>
@@ -87,7 +87,7 @@ const Hero = () => {
           </div>
           <a href="https://drive.google.com/file/d/1UiKnvQHZbSFiVJeC8A2hCS85GK7NTnuQ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
             <button
-
+            
               className="btn btn-primary hover:text-black ease-in-out duration-500 w-fit my-2"
             >
               Download Resume
