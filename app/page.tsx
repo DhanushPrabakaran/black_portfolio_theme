@@ -8,10 +8,10 @@ import Spotify from "@/public/icon/spotify.svg";
 import Dribble from "@/public/icon/dribbl.svg";
 import Twitter from "@/public/icon/Twitter.svg";
 import Spotif from "@/public/icon/spotify.svg";
-import Header from '@/Components/Header';
-import Footer from '@/Components/Footer';
-import Hero from '@/Components/Hero';
-import Projects from '@/Components/Projects';
+import Header from '@/app/Components/Header';
+import Footer from '@/app/Components/Footer';
+import Hero from '@/app/Components/Hero';
+import Projects from '@/app/Components/Projects';
 export default function Home() {
 
   return (
