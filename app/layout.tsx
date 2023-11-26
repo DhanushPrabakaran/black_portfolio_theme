@@ -1,8 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter,Bakbak_One } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Bakbak_One({
+  weight:[ '400'],
+  subsets:['devanagari'],
+})
+
 
 export const metadata: Metadata = {
   title: 'Create Next App',
