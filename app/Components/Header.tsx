@@ -3,7 +3,7 @@ import Spotify from "@/public/icon/spotify.svg";
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className="navbar bg-black bg-opacity-90 shadow-inner sha bg-transparent z-50   fixed text-[#776fff] ">
+    <div className="navbar bg-black bg-opacity-90 border-b border-opacity-10 border-b-neutral-100 shadow-inner sha bg-transparent z-50   fixed text-[#776fff] ">
       <div className="navbar-start">
         <div className="dropdown ">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
