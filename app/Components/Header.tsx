@@ -54,12 +54,12 @@ const Header = () => {
               <a href="#Achievements"
               className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
             </li>
-            <li>
+            {/* <li>
             <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Brain Waves</a>
-          </li>
+          </li> */}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl  from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ">Draco</a>
+        <a className="btn btn-ghost normal-case text-xl  from-purple-600 via-primary-focus to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ">D-Dev</a>
       </div>
       <div className="navbar-center hidden items-stretch lg:flex">
         <ul className="menu menu-horizontal px-1 ">
@@ -95,9 +95,9 @@ const Header = () => {
           <li>
             <a href="#Achievements" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Brain Waves</a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="navbar-end">

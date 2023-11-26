@@ -26,7 +26,7 @@ const Hero = () => {
 
             className="w-fit max-md:text-xl max-md:items-center max-md:text-center font-bold bg-gradient-to-r from-gray-700 via-gray-900 to-black text-2xl bg-clip-text my-2"
           >
-            Full Stack Developer, UI/UX Desiger, Blockchain Developer
+            Full Stack Developer, UI/UX Desiger
           </p>
           <div
 
