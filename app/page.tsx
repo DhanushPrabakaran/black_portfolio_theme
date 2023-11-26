@@ -12,12 +12,14 @@ import Header from '@/app/Components/Header';
 import Footer from '@/app/Components/Footer';
 import Hero from '@/app/Components/Hero';
 import Projects from '@/app/Components/Projects';
+import About from './Components/About';
 export default function Home() {
 
   return (
     <div>
       <Header></Header>
       <Hero></Hero>
+      <About />
       <Projects></Projects>
       <Footer></Footer>
     </div>

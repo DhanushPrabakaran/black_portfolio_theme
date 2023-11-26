@@ -4,6 +4,8 @@ import iam from "@/public/laptop.webp";
 const ProjectCard = () => {
   return (
     <div className="group m-1 border-dashed    carousel-item  relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 ">
+      
+      
                             <span className="  absolute block inset-0  bg-[#776fff] border-[#776fff]  border-2 rounded-lg border-dashed"></span>
 
                             <span className=" card w-72  relative  border-current transition-transform translate-x-0 translate-y-0  max-w-sm bg-white border border-gray-200 group-hover:-translate-y-1 group-hover:-translate-x-1 rounded-lg shadow dark:bg-black dark:border-gray-700">
