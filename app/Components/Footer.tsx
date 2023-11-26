@@ -11,16 +11,16 @@ const Footer = () => {
   return (
     <footer className="footer footer-center p-10 bg-black text-base-content rounded ">
       <nav className="grid grid-flow-col gap-4">
-        <a href="#About" className="link link-hover">
+        <a href="#About" className="link link-hover link-primary">
           About me
         </a>
-        <a href="#Connect" className="link link-hover">
+        <a href="#Connect" className="link link-hover link-primary">
           Connect
         </a>
-        <a href="#Project" className="link link-hover">
+        <a href="#Project" className="link link-hover link-primary">
           Projects
         </a>
-        <a href="#Achievements" className="link link-hover">
+        <a href="#Achievements" className="link link-hover link-primary">
           Achievements
         </a>
       </nav>

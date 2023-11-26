@@ -2,12 +2,12 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 const Projects = () => {
     return (
-        <div className="hero min-h-screen bg-black">
-            <div className="hero-content text-center">
-                <div className="max-h-md">
-                    <h1 className="text-3xl lg:text-5xl shadow-inner  font-bold my-4">Projects</h1>
+        <div className="hero min-h-screen  bg-black">
+            <div className=" text-center ">
+                {/* <div className=""> */}
+                    <h1 className="text-3xl text-neutral-100 lg:text-5xl shadow-inner  font-bold my-4">PROJECTS</h1>
 
-                    <div className=" flex w-full items-center flex-row flex-wrap justify-center ">
+                    <div className="rounded-box  ">
                         <ProjectCard/>
                         <ProjectCard/>
                         <ProjectCard/>
@@ -76,7 +76,7 @@ const Projects = () => {
                             </div>
                         </div> */}
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         </div>
     );

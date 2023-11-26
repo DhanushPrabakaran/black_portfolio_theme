@@ -3,10 +3,10 @@ import Image from "next/image";
 import iam from "@/public/laptop.webp";
 const ProjectCard = () => {
   return (
-    <div className="group m-1  relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 ">
-                            <span className="absolute inset-0 translate-x-0 translate-y-0 bg-[#776fff] transition-transform group-hover:translate-y-0.5 group-hover:translate-x-0.5 rounded-lg"></span>
+    <div className="group m-1 border-dashed    carousel-item  relative inline-block text-sm font-medium text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 ">
+                            <span className="  absolute block inset-0  bg-[#776fff] border-[#776fff]  border-2 rounded-lg border-dashed"></span>
 
-                            <span className=" card w-72 relative block  border-current  max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <span className=" card w-72  relative  border-current transition-transform translate-x-0 translate-y-0  max-w-sm bg-white border border-gray-200 group-hover:-translate-y-1 group-hover:-translate-x-1 rounded-lg shadow dark:bg-black dark:border-gray-700">
                                 <Image
                                     className="rounded-t-lg  h-[200px] opacity-30"
                                     src={iam}
