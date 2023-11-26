@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div className=" flex  items-center justify-center  flex-col ">
           <div
-            className="text-5xl max-md:text-4xl max-md:items-center bg-gradient-to-t from-gray-400 via-gray-600 to-gray-600 bg-clip-text text-transparent my-2 font-black"
+            className="text-5xl max-md:text-4xl items-center bg-gradient-to-t from-gray-400 via-gray-600 to-gray-600 bg-clip-text text-transparent my-2 font-black"
           >
             DHANUSH PRABAKARAN
           </div>
@@ -84,14 +84,14 @@ const Hero = () => {
               />
             </a>
           </div>
-          <a href="https://drive.google.com/file/d/1UiKnvQHZbSFiVJeC8A2hCS85GK7NTnuQ/view?usp=share_link" target="_blank" rel="noopener noreferrer">
-            <button
+          <div>
+            <a href="https://drive.google.com/file/d/1UiKnvQHZbSFiVJeC8A2hCS85GK7NTnuQ/view?usp=share_link" target="_blank" rel="noopener noreferrer"
             
               className="btn btn-primary hover:text-black ease-in-out duration-500 w-fit my-2"
             >
               Download Resume
-            </button>
-          </a>
+            </a>
+          </div>
 
         </div>
         <svg viewBox="0 0 655 680" fill="none" className=" p-2 max-h-[500px] ">
