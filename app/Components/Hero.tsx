@@ -17,7 +17,6 @@ const Hero = () => {
 
         <div className=" flex  items-center justify-center  flex-col ">
           <div
-
             className="text-5xl max-md:text-4xl max-md:items-center font-bold bg-gradient-to-t from-gray-400 via-gray-600 to-gray-600 bg-clip-text text-transparent my-2"
           >
             Dhanush Prabakaran
