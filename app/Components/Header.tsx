@@ -3,7 +3,7 @@ import Spotify from "@/public/icon/spotify.svg";
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className="navbar bg-black bg-opacity-90 border-b border-opacity-10 border-b-neutral-100 shadow-inner sha bg-transparent z-50   fixed text-[#776fff] ">
+    <div className="navbar bg-gradient-to-b from-[#000000c8] via-[#000000c8] to-[#3b00a92f]  border-b border-opacity-10 border-b-[#776fff] shadow-inner sha bg-transparent z-50   fixed text-[#776fff] text-xl uppercase ">
       <div className="navbar-start">
         <div className="dropdown ">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,34 +28,34 @@ const Header = () => {
           >
             <li>
               <a href="#Home"
-              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Home</a>
+              className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Home</a>
             </li>
             <li>
               <a href="#About"
-              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">About me!</a>
+              className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">About me!</a>
             </li>
 
             <li>
               <a href="#Project"
-              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project</a>
+              className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Project</a>
               <ul className="p-2">
                 <li>
                   <a href="#Project1"
-                  className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-1</a>
+                  className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Project-1</a>
                 </li>
                 <li>
                   <a href="#Project2"
-                  className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-2</a>
+                  className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Project-2</a>
                 </li>
               </ul>
             </li>
             
             <li>
               <a href="#Achievements"
-              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
+              className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Achievements</a>
             </li>
             {/* <li>
-            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Brain Waves</a>
+            <a href="#Writing" className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Brain Waves</a>
           </li> */}
           </ul>
         </div>
@@ -66,37 +66,37 @@ const Header = () => {
           <li>
             <a
               href="#Home"
-              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus"
+              className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus"
             >
               Home
             </a>
           </li>
           <li>
             <a href="#About"
-            className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">About me!</a>
+            className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">About me!</a>
           </li>
           <li tabIndex={0}>
             <details>
               <summary
-              className=" hover:border-x-2 border-primary-focus hover:text-primary-focus flex-1">Project</summary>
+              className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus flex-1">Project</summary>
               <ul className="p-2 bg-black bg-opacity-90">
                 <li
                 className="">
                   <a href="#Project1"
-                  className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-1</a>
+                  className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Project-1</a>
                 </li>
                 <li>
-                  <a href="#Project2" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Project-2</a>
+                  <a href="#Project2" className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Project-2</a>
                 </li>
               </ul>
             </details>
           </li>
           
           <li>
-            <a href="#Achievements" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Achievements</a>
+            <a href="#Achievements" className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Achievements</a>
           </li>
           {/* <li>
-            <a href="#Writing" className=" hover:border-x-2 border-primary-focus hover:text-primary-focus">Brain Waves</a>
+            <a href="#Writing" className=" hover:border-x-2 border-[#776fff] hover:text-primary-focus">Brain Waves</a>
           </li> */}
         </ul>
       </div>
