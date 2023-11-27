@@ -17,13 +17,13 @@ const Hero = () => {
 
         <div className=" flex  items-center justify-center  flex-col ">
           <div
-            className="text-5xl max-sm:text-4xl max-md:text-5xl bg-gradient-to-t from-gray-700 via-gray-600 to-gray-600 bg-clip-text text-transparent my-2 text-center"
+            className="text-5xl max-sm:text-4xl max-md:text-5xl  my-2 text-center"
           >
             DHANUSH PRABAKARAN
           </div>
           <p
 
-            className=" max-md:text-xl max-md:items-center text-center bg-gradient-to-r from-gray-700 via-gray-900 to-black text-2xl bg-clip-text mb-2"
+            className=" max-md:text-xl max-md:items-center text-center  text-primary bg-gradient-to-r from-gray-700 via-gray-900 to-black text-2xl bg-clip-text mb-2"
           >
             Full Stack Developer, UI/UX Desiger
           </p>
