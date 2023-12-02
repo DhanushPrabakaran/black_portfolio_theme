@@ -94,6 +94,9 @@ const Hero = () => {
           </div>
 
         </div>
+        <div
+        className='w-full h-full flex justify-center items-center'>
+          
         <svg viewBox="0 0 655 680" fill="none" className=" p-2 max-h-[500px] ">
           <g clip-path="url(#:S1:-clip)" className="group">
             <g className="origin-center scale-100 transition duration-500 motion-safe:group-hover:scale-105 ">
@@ -110,6 +113,7 @@ const Hero = () => {
             </clipPath>
           </defs>
         </svg>
+        </div>
       </div>
     </div>
   )
